@@ -47,20 +47,7 @@ if __name__ == "__main__":
     # Path file key 
     aut_key = str(input("Enter Password :"))
     key = Auth(aut_key)
-    
-    # if 'encrypted_key.key' in xfiles:
-    #     pass
-    # else:
-    #     with open(f"{path_file}\\encrypted_key.key","wb") as locker_key:
-    #         key = Fernet.generate_key()
-    #         locker_key.write(key)
-    #     print("kelar")
-
-    # # get key
-    # with open(f"{path_file}\\encrypted_key.key","rb") as locker_key:
-    #     key = locker_key.read()
-    #     locker_key.close()
-        
+  
     print("""
     1.encrypted file
     2.decrypted file
